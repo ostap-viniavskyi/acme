@@ -28,7 +28,6 @@ FLAGS = flags.FLAGS
 flags.DEFINE_string('task', 'PongNoFrameskip-v4', 'Atari task name (str).')
 flags.DEFINE_integer('num_actors', 4, 'Number of parallel actors.')
 
-
 def main(_):
   # Access flag value.
   level = FLAGS.task

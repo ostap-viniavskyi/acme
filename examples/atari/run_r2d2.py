@@ -38,7 +38,10 @@ def main(_):
       batch_size=16,
       trace_length=20,
       burn_in_length=10,
-      sequence_period=10)
+      sequence_period=10,
+      min_replay_size=1,
+      samples_per_insert_tolerance_rate=1.0
+  )
 
   agent = r2d2.R2D2(
       env_spec,

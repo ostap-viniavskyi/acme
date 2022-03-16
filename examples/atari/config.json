@@ -1,0 +1,31 @@
+{
+  "discount": 0.997,
+  "target_update_period": 2500,
+  "evaluation_epsilon": 0.0,
+  "num_epsilons": 1,
+  "variable_update_period": 1,
+
+  "burn_in_length": 10,
+  "trace_length": 20,
+  "sequence_period": 10,
+  "learning_rate": 1e-3,
+  "action_pred_learning_rate": 5e-3,
+  "action_pred_clipping_factor": 5,
+  "bootstrap_n": 5,
+  "clip_rewards": "False",
+
+  "samples_per_insert_tolerance_rate": 0.1,
+  "samples_per_insert": 0,
+  "min_replay_size": 1,
+  "max_replay_size": 50000,
+  "batch_size": 16,
+  "prefetch_size": 2,
+  "num_parallel_calls": 1,
+
+  "importance_sampling_exponent": 0.6,
+  "priority_exponent": 0.9,
+  "max_priority_weight": 0.9,
+
+  "observation_embed_dim": 4,
+  "episodic_memory_max_size": 300
+}
